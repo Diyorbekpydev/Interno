@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body{
+  background-color: #fff;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site_header{
+  padding: 51px 0;
+}
+
+.container{
+  width: 1120px;
+  margin: 0 auto;
+  height: 80px;
+
+}
+
+.nav_list{
+  display: flex;
+
+
+}
+
+.nav_list > .nav_item{
+  margin-right: 30px;
+  list-style: none;
+}
+
+
+.nav_item > a{
+  text-decoration: none;
+  font: Jost;
+  color: black;
+  font-size: 20px;
+}
+
+.logo{
+  margin-left: 100px;
+}
+
+.bx_icon{
+  font-size: 25px;
+}
+
+main{
+  width: 100%;
+
+}
+
+.box_about{
+  margin-top: -50px;
+}
+
+.title{
+  font-family: DM Serif Display;
+
+}
+
+.Aboutus_title{
+  width: 700px;
+  height: 294px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 470px;
+  
+
+}
+
+.Aboutus_title p{
+  margin-left: -110px;
+
+}
+.about_title{
+  width: 600px;
+  height: 132px;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 43.75px;
+  letter-spacing: 2%;
+  padding-bottom: 150px;
+}
+
+
+
+.part-result{
+  width: 1200px;
+  margin-left:70px;
+
+}
+
+
+.result-title{
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 62.5px;
+  color: #292F36;
+}
+
+.state_text{
+  width: 500px;
+  height: 132px;
+  font-size: 22px;
+  font-family: Jost;
+  line-height: 33px;
+  margin-right: 50px;
+}
+
+
+
+.home_state img{
+  width: 500px;
+  height: 300px;
+  margin-left: 100px;
+
+}
+
+.btn{
+  font-size: 20px;
+  width: Hug(219.14px);
+  height: Hug(75px);
+  background-color: #292F36;
+  font-family: Jost;
+
+  padding: 20px;
+  border-radius: 18px;
+  color: #fff;
+  margin-top: 20PX;
+  display: inline-block;
+}
+
+.box-result{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;  
+}
+
+.box_after{
+  margin-left: 130px;
+}
+
+.after{
+  margin-right: -160px;
+  flex-direction: row-reverse;
+}
+
+
+.thinks_peoples{
+  width: 1920px;
+  height: 968px;
+  background-color: #F4F0EC;
+}
+
+.peoples_title{
+  width: 547px;
+  height: 126px;
+  text-align: center;
+  margin-left: 500px;
+  padding-top: 100px;
+  font-size: 50px;
+  line-height: 62.5px;
+}
+.humans{
+  display: flex;
+  margin-left: 140px;
+  margin-top: 250px;
+}
+
+
+.humans img{
+  width: 283px;
+  margin-left: 30px;
+  
+}
+
+.register_title{
+  width: 630px;
+}
+
+form{
+  width:   796px;
+  margin-top: 150px;
+  margin-left: 500px;
+  
+}
+
+
+input{
+  width: 300px;
+  height: 50px;
+  font-size: 26px;
+  font-family: Jost;
+  margin-left: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#text{
+  height: 200px;
+  width: 630px;
+}
+
+.btm_form{
+  margin-left: 250px;
+}
+
+
+footer{
+  width: 1120px;
+  height: 577px;
+  display: flex;
+}
+
+.footer_logo{
+  padding-top: 50px;
+  
+}
+.box-logo{
+  padding-left: 100px
+
+
+}
+
+.ft{
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.box_footer{
+  display: flex;
+  margin-left: 200px;
+  padding-top: 90px;
+  
+
+
+}
+
+.box_footer ul{
+  margin-right: 100px;
+  line-height: 50px;
+  padding-top: -500px;
+  /* padding-left: 200px; */
+}
+
+.box_footer ul >li{
+  font-family: Jost;
+}
+
+.ft_title{
+  color: black;
+  font-weight: bold;
+}
+.Contact{
+  width:258px;
+}
+
+
+.footer_part{
+  color: #4D5053;
+  font-size: 22px;
+  font-family: Jost;
+  text-align: center;
+}
